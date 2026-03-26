@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #C2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+
+}
