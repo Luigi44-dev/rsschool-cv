@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="hero">
-        <img src="" alt="" />
-        <div>
+        <img src="assets/avatar.png" alt="" />
+        <div class="info">
           <h1>John Silver</h1>
           <p>Trainee front-end developer</p>
+          <h3>Contacts</h3>
+          <ul><li>TG: @john_silver</li> <li>discord: @Ilya (@Luigi44-dev)</li></ul>
         </div>
       </section>
       <section id="about">
@@ -43,20 +49,20 @@
         <h2>Code example</h2>
         <code>console.log("hello world!"); </code>
       </section>
-      <section>
+      <section id="experience">
         <h2>Work experience</h2>
         <p>
           Solved some kata on codewars, but cv is my first project on github
         </p>
       </section>
-      <section>
+      <section id="education">
         <h2>Education</h2>
         <p>
           Second year student of Belarusian State University of Informatics and
           Radioelectronics
         </p>
       </section>
-      <section>
+      <section id="languages">
         <h2>Languages</h2>
         <ul>
           <li>English - Intermediate/Upper-intermediate</li>
@@ -64,7 +70,17 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
+      <div>
+        <p class="github-link"><a href="https://github.com/Luigi44-dev"><img src="assets/github.svg" alt="GitHub"><span>Luigi44-dev</span></a></p>
+        <p>2026</p>
+        <img src="assets/course-logo.svg" alt="course logo" />
+      </div>
+      <small>
+        <a href="https://rs.school/courses/javascript-preschool-ru"
+          >JS / Front-end Pre-school RU Course</a
+        >
+      </small>
     </footer>
   </body>
 </html>
