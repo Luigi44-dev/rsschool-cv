@@ -117,9 +117,12 @@ footer div {
 }
 
 .code code {
-    margin-top: 10px;
     background-color: #C2c2c2;
     padding: 8px;
     border-radius: 4px;
     font-family: monospace;
+}
+
+section h2 {
+    margin-bottom: 8px;
 }
